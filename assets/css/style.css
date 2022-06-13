@@ -35,7 +35,7 @@ header {
 header h1 {
     font-weight: bold;
     font-size: 36px;
-    color: var(--tertiarycolor);
+    color: var(--tertiary-color);
     margin: 0;
     background: var(--primary-color);
     border-radius: 5px;
@@ -99,7 +99,7 @@ header nav ul li a:hover {
 }
 
 footer a {
-    padding: 25px;
+    padding: 10px 15px;
     font-size: 1.55vw;
     color: var(--tertiary-color);
 }
@@ -147,26 +147,24 @@ footer div ul li a:hover {
 
 
 .sidebar h2 {
-    border-right: 5px solid var(--tertiary-color);
     color: var(--tertiary-color);
     background-color: var(--primary-color);
     font-size: 46px;
-    flex: 1 25%;
     padding: 5px 15px 5px 15px;
-    width: 25%
   }
 
-  .About-Me {
-    display: flex;
-    flex-direction: row;
-}
 
   .content-1 {
-      display: flex;
-      flex-wrap: wrap;
-      flex: 2 75%;
+      padding: 25px;
+
 
   }
+
+
+.My-Work {
+    display:flex;
+    flex-wrap: wrap;
+}
 
 .main-work {
     border-style: solid;
@@ -176,18 +174,23 @@ footer div ul li a:hover {
     padding: 10px;
     flex: 0 0 300px;
     margin: 20px;
-    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
   }
 
-.main-work > img {
-    width: 100%;
-    height: 25%;
+  .main-work :hover {
+    border-color: var(--white);
 }
 
-.My-Work {
-    display:flex;
-    flex-wrap: wrap;
+.main-work > img {
+    width: 500;
+    height: 350px;
+
 }
+
 .sample {
     border-style: solid;
     border-width: 3px;
@@ -199,6 +202,7 @@ footer div ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     width: 50%;
+    justify-content: space-around;
   }
 
   .sample :hover {
@@ -206,8 +210,8 @@ footer div ul li a:hover {
   }
 
   .sample > img {
-      width: 30%;
-      height: 25%;
+      width: 200px;
+      height: 150px;
 
   }
 
@@ -218,7 +222,13 @@ footer div ul li a:hover {
     border-color: #b12b02;
     border-radius: 5px;
     text-decoration: none;
-    padding: 15px 15px 15px 50px;
+    text-align: center;
+  }
+
+  .flex-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
   }
 
 
