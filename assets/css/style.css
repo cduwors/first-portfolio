@@ -1,0 +1,226 @@
+:root {
+    --primary-color: rgba(157, 208, 252, 0.992);
+    --secondary-color: #11701b;
+    --tertiary-color: #b12b02;
+    --white: #fff;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--primary-color);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* HEADER AND NAV BAR START */
+
+header {
+    padding: 20px 35px 10px 0px;
+    background-color: var(--tertiary-color);
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    top: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
+
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--tertiarycolor);
+    margin: 0;
+    background: var(--primary-color);
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 15px 15px 15px 50px;
+
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    font-weight: lighter;
+    color: var(--white);
+    padding: 10px 15px;
+    font-size: 1.55vw;
+}
+
+header nav ul li a:hover {
+    background: var(--primary-color);
+    color: var(--white);
+    border-radius: 5px;
+
+}
+/* HEADER AND NAV BAR END */
+
+ /* FOOTER START */
+
+ footer {
+    background: var(--primary-color);
+    color: var(--tertiary-color);
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+  }
+
+  footer div {
+      line-height: 1.5;
+      text-align: right;
+  }
+
+
+  footer div ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    list-style: none;
+    color: var(--white);
+}
+
+footer a {
+    padding: 25px;
+    font-size: 1.55vw;
+    color: var(--tertiary-color);
+}
+
+footer div ul li a:hover {
+    background: var(--tertiary-color);
+    color: var(--white);
+    border-radius: 5px;
+
+}
+
+
+
+/* FOOTER style end */
+
+/* HERO style start */
+
+.hero {
+    background-image: url("../images/IMG_2009.JPG");
+    background-size: 100%;
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    background-attachment: fixed;
+    background-position: center;
+    height: 350px;
+    width: auto;
+
+}
+
+.cool-subtitle {
+    text-align: right;
+    color: var(--tertiary-color);
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 15px 15px 0;
+}
+
+/* HERO style end */
+
+/* MY WORK style START */
+
+
+
+.sidebar h2 {
+    border-right: 5px solid var(--tertiary-color);
+    color: var(--tertiary-color);
+    background-color: var(--primary-color);
+    font-size: 46px;
+    flex: 1 25%;
+    padding: 5px 15px 5px 15px;
+    width: 25%
+  }
+
+  .About-Me {
+    display: flex;
+    flex-direction: row;
+}
+
+  .content-1 {
+      display: flex;
+      flex-wrap: wrap;
+      flex: 2 75%;
+
+  }
+
+.main-work {
+    border-style: solid;
+    border-width: 3px;
+    border-color: var(--tertiary-color);
+    border-radius: 5px;
+    padding: 10px;
+    flex: 0 0 300px;
+    margin: 20px;
+    
+  }
+
+.main-work > img {
+    width: 100%;
+    height: 25%;
+}
+
+.My-Work {
+    display:flex;
+    flex-wrap: wrap;
+}
+.sample {
+    border-style: solid;
+    border-width: 3px;
+    border-color: var(--tertiary-color);
+    border-radius: 5px;
+    padding: 10px;
+    flex: 0 0 300px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+  }
+
+  .sample :hover {
+      border-color: var(--white);
+  }
+
+  .sample > img {
+      width: 30%;
+      height: 25%;
+
+  }
+
+  .work-title {
+    color: var(--tertiarycolor);
+    margin: 0;
+    background: var(--primary-color);
+    border-color: #b12b02;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 15px 15px 15px 50px;
+  }
+
+
+
+   
